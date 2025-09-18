@@ -215,6 +215,24 @@ For each one, you will need to:
    - Look in the producers folder for csv_producer_case.
    - Look in the consumers folder for csv_consumer_case.
 
+## Task 6 Custom Consumer Project
+- For my custom consumer project I added a line graph which tracks average time between messages per author
+- This application could be used for many business practices like tracking when and how often people hit websites or got to common links
+- Commands are below
+Mac/Linux:
+
+```zsh
+source .venv/bin/activate
+python3 -m producers.json_producer_case
+```
+- Then in another terminal
+Mac/Linux:
+
+```zsh
+source .venv/bin/activate
+python3 -m consumers.project_consumer_wilcox
+```
+
 ### Review the Application Code
 
 Review the code for both the producer and the consumer.
